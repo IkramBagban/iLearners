@@ -1,0 +1,313 @@
+{
+  "love": [
+    {
+      "id": "001",
+      "category": "Binary Search",
+      "title": "Search On A Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-001"
+    },
+    {
+      "id": "002",
+      "category": "Binary Search",
+      "title": "Searching an element in a sorted array | Practice | GeeksforGeeks",
+      "difficulty": "Easy",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-002"
+    },
+    {
+      "id": "003",
+      "category": "Binary Search",
+      "title": "Find First Occurence In Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-003"
+    },
+    {
+      "id": "004",
+      "category": "Binary Search",
+      "title": "Find Last Occurence In Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-004"
+    },
+    {
+      "id": "005",
+      "category": "Binary Search",
+      "title": "Find Total Number of occurrence",
+      "difficulty": "Easy",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-005"
+    },
+    {
+      "id": "006",
+      "category": "Char Arrays And String",
+      "title": "1047. Remove All Adjacent Duplicates In String",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-006"
+    },
+    {
+      "id": "007",
+      "category": "Char Arrays And String",
+      "title": "1910. Remove All Occurrences of a Substring",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-007"
+    },
+    {
+      "id": "008",
+      "category": "Char Arrays And String",
+      "title": "1209. Remove All Adjacent Duplicates in String II",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Not Solved",
+      "url": "placeholder-url-008"
+    },
+    {
+      "id": "009",
+      "category": "Char Arrays And String",
+      "title": "680. Valid Palindrome II",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-009"
+    },
+    {
+      "id": "010",
+      "category": "Char Arrays And String",
+      "title": "539. Minimum Time Difference",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-010"
+    },
+    {
+      "id": "011",
+      "category": "Char Arrays And String",
+      "title": "647. Palindromic Substrings",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-011"
+    },
+    {
+      "id": "012",
+      "category": "Linkedlist",
+      "title": "876. Middle of the Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-012"
+    },
+    {
+      "id": "013",
+      "category": "Linkedlist",
+      "title": "61. Rotate List",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "-",
+      "url": "placeholder-url-013"
+    },
+    {
+      "id": "014",
+      "category": "Linkedlist",
+      "title": "206. Reverse Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-014"
+    },
+    {
+      "id": "015",
+      "category": "Linkedlist",
+      "title": "234. Palindrome Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-015"
+    },
+    {
+      "id": "016",
+      "category": "Linkedlist",
+      "title": "141. Linked List Cycle",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-016"
+    },
+    {
+      "id": "017",
+      "category": "Linkedlist",
+      "title": "Remove loop in Linked List",
+      "difficulty": "Medium",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-017"
+    }
+  ],
+
+  "fraz": [
+    {
+      "id": "001",
+      "category": "Binary Search",
+      "title": "Search On A Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-001"
+    },
+    {
+      "id": "002",
+      "category": "Binary Search",
+      "title": "Searching an element in a sorted array | Practice | GeeksforGeeks",
+      "difficulty": "Easy",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-002"
+    },
+    {
+      "id": "003",
+      "category": "Binary Search",
+      "title": "Find First Occurence In Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-003"
+    },
+    {
+      "id": "004",
+      "category": "Binary Search",
+      "title": "Find Last Occurence In Sorted Array/Vector",
+      "difficulty": "Easy",
+      "source": "-",
+      "status": "Solved",
+      "url": "placeholder-url-004"
+    },
+    {
+      "id": "005",
+      "category": "Binary Search",
+      "title": "Find Total Number of occurrence",
+      "difficulty": "Easy",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-005"
+    },
+    {
+      "id": "006",
+      "category": "Char Arrays And String",
+      "title": "1047. Remove All Adjacent Duplicates In String",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-006"
+    },
+    {
+      "id": "007",
+      "category": "Char Arrays And String",
+      "title": "1910. Remove All Occurrences of a Substring",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-007"
+    },
+    {
+      "id": "008",
+      "category": "Char Arrays And String",
+      "title": "1209. Remove All Adjacent Duplicates in String II",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Not Solved",
+      "url": "placeholder-url-008"
+    },
+    {
+      "id": "009",
+      "category": "Char Arrays And String",
+      "title": "680. Valid Palindrome II",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-009"
+    },
+    {
+      "id": "010",
+      "category": "Char Arrays And String",
+      "title": "539. Minimum Time Difference",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-010"
+    },
+    {
+      "id": "011",
+      "category": "Char Arrays And String",
+      "title": "647. Palindromic Substrings",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-011"
+    },
+    {
+      "id": "012",
+      "category": "Linkedlist",
+      "title": "876. Middle of the Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-012"
+    },
+    {
+      "id": "013",
+      "category": "Linkedlist",
+      "title": "61. Rotate List",
+      "difficulty": "Medium",
+      "source": "Leetcode",
+      "status": "-",
+      "url": "placeholder-url-013"
+    },
+    {
+      "id": "014",
+      "category": "Linkedlist",
+      "title": "206. Reverse Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-014"
+    },
+    {
+      "id": "015",
+      "category": "Linkedlist",
+      "title": "234. Palindrome Linked List",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-015"
+    },
+    {
+      "id": "016",
+      "category": "Linkedlist",
+      "title": "141. Linked List Cycle",
+      "difficulty": "Easy",
+      "source": "Leetcode",
+      "status": "Solved",
+      "url": "placeholder-url-016"
+    },
+    {
+      "id": "017",
+      "category": "Linkedlist",
+      "title": "Remove loop in Linked List",
+      "difficulty": "Medium",
+      "source": "GFG",
+      "status": "Solved",
+      "url": "placeholder-url-017"
+    }
+  ]
+}
