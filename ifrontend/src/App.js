@@ -1,30 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect } from 'react';
-import useFetch from './customHooks/useFetch';
+import Sheet from './components/Sheet';
 
 function App() {
 
-  const {data, isLoading, isError} = useFetch('/fraz')
-  console.log('data',data)
+
+  
 
   return (
+    <>
+    <Sheet />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <table className="border-collapse border border-slate-400 ...">
+  <thead>
+    <tr>
+      <th className="border border-slate-300 ...">State</th>
+      <th className="border border-slate-300 ...">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="border border-slate-300 ...">Indiana</td>
+      <td className="border border-slate-300 ...">Indianapolis</td>
+    </tr>
+    <tr>
+      <td className="border border-slate-300 ...">Ohio</td>
+      <td className="border border-slate-300 ...">Columbus</td>
+    </tr>
+    <tr>
+      <td className="border border-slate-300 ...">Michigan</td>
+      <td className="border border-slate-300 ...">Detroit</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    
+    </>
   );
 }
 
