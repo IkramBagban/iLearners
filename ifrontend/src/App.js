@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import useFetch from './customHooks/useFetch';
 
 function App() {
+
+  const {data, isLoading, isError} = useFetch('/fraz')
+  console.log('data',data)
+
   return (
     <div className="App">
       <header className="App-header">
