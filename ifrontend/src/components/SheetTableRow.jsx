@@ -14,7 +14,7 @@ const SheetTableRow = ({ item }) => {
   };
   return (
     // <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-    <tr className="bg-gradient-to-r from-white to-gray-100 hover:from-gray-100 hover:to-indigo-100 transition duration-300">
+     <tr className="bg-gradient-to-r from-white to-gray-100 hover:from-gray-100 hover:to-indigo-100 transition duration-300"> 
       <td className="py-4 px-6">{item.sno}</td>
       <td className="py-4 px-6">{item.category}</td>
       <td className="py-4 px-6">

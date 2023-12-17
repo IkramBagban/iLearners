@@ -12,7 +12,7 @@ const Header = () => {
         <h3 className="text-2xl font-bold">iLearner</h3>
         <nav className="flex space-x-4">
           <a href="http://localhost:3000/home" className="hover:underline">Home</a>
-          <a href="http://localhost:3000/sheets" className="hover:underline">Sheets</a>
+          <a href="http://localhost:3000/sheet" className="hover:underline">Sheets</a>
         </nav>
       </div>
       <div className="relative">

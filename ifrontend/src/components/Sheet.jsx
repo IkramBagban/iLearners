@@ -17,9 +17,9 @@ const Sheet = () => {
     <div className="overflow-x-auto relative">
       <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         {/* <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> */}
-        {/* <thead className="text-xs text-white uppercase bg-gradient-to-r from-indigo-500 to-purple-600 shadow-md"> */}
+        <thead className="text-xs text-white uppercase bg-gradient-to-r from-indigo-500 to-purple-600 shadow-md">
         {/* <thead className="text-xs text-white uppercase bg-gradient-to-r from-blue-500 to-blue-800 shadow-lg"> */}
-        <thead className="text-xs text-white uppercase bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 shadow-lg">
+        {/* <thead className="text-xs text-white uppercase bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 shadow-lg"> */}
           <tr>
             <th scope="col" className="py-3 px-6">
               SNO

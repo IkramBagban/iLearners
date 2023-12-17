@@ -5,16 +5,19 @@ import CustomButton from "../components/CustomButton";
 import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const [inputState, setInputState] = useState({
     email: "",
     password: "",
   });
 
-
-  const loginButtonHandler =(page) =>{
-      navigate('/welcome')
-  }
+  const buttonClickHandler = (btn) => {
+    if (btn === "login") {
+      navigate("/welcome");
+    } else {
+      navigate("/signup");
+    }
+  };
 
   const inputChangeHandler = (e) => {
     console.log(inputState);
@@ -46,7 +49,15 @@ const LoginPage = () => {
           {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
             Sign In
           </button> */}
-          <CustomButton onClick={loginButtonHandler}>Login</CustomButton>
+          <CustomButton onClick={() => buttonClickHandler("login")}>
+            Login
+          </CustomButton>
+          <div
+            onClick={() => buttonClickHandler("signup")}
+            className="flex mt-2 text-blue-500 cursor-pointer hover:text-blue-400 justify-center"
+          >
+            Signup
+          </div>
         </form>
       </div>
     </div>

@@ -11,26 +11,26 @@ import WelcomePage from './pages/WelcomePage';
 import { Outlet, useNavigate } from 'react-router-dom';
 
 function App() {
-  const [token, setToken] = useState(false)
+  const [token, setToken] = useState(true)
   const navigate = useNavigate();
 
-  useEffect(()=>{
-    if(token){
-      navigate('/welcome')
-    }else{
-      navigate('/auth')
-    }
-  },[token,navigate])
+  // useEffect(()=>{
+  //   if(token){
+  //     navigate('/welcome')
+  //   }else{
+  //     navigate('/auth')
+  //   }
+  // },[])
   return (
     <>
-      {/* <Header />
-      <Sheet />
+      {/* <Header /> */}
+      {/* <Sheet />
       <WelcomePage />
       <LandingPage />
       <LoginPage />
       <SignupPage />
       <OTPVerification /> */}
-      {token ? <Header /> : ''}
+      
       <Outlet />
 
     </>

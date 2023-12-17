@@ -2,13 +2,24 @@ import React, { useState } from "react";
 import { onInputChange } from "../utils/helperFunctions";
 import CustomInput from "../components/CustomInput";
 import CustomButton from "../components/CustomButton";
+import { useNavigate } from "react-router-dom";
 
 const SignupPage = () => {
+  const navigate = useNavigate();
+
   const [inputState, setInputState] = useState({
     name: "",
     email: "",
     password: "",
   });
+
+  const buttonClickHandler = (btn) => {
+    if (btn === "signup") {
+      navigate("/login");
+    } else {
+      navigate("/login");
+    }
+  };
 
   const inputChangeHandler = (e) => {
     console.log(inputState);
@@ -45,9 +56,18 @@ const SignupPage = () => {
             onChange={inputChangeHandler}
           />
 
-          <CustomButton color={"green"} onClick={() => {}}>
+          <CustomButton
+            color={"green"}
+            onClick={() => buttonClickHandler("signup")}
+          >
             Sign Up
           </CustomButton>
+          <div
+            onClick={() => buttonClickHandler("login")}
+            className="flex mt-2 text-blue-500 cursor-pointer hover:text-green-500 justify-center"
+          >
+            Login
+          </div>
         </form>
       </div>
     </div>
