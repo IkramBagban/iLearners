@@ -1,313 +1,1927 @@
-{
-  "love": [
-    {
-      "id": "001",
-      "category": "Binary Search",
-      "title": "Search On A Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-001"
-    },
-    {
-      "id": "002",
-      "category": "Binary Search",
-      "title": "Searching an element in a sorted array | Practice | GeeksforGeeks",
-      "difficulty": "Easy",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-002"
-    },
-    {
-      "id": "003",
-      "category": "Binary Search",
-      "title": "Find First Occurence In Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-003"
-    },
-    {
-      "id": "004",
-      "category": "Binary Search",
-      "title": "Find Last Occurence In Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-004"
-    },
-    {
-      "id": "005",
-      "category": "Binary Search",
-      "title": "Find Total Number of occurrence",
-      "difficulty": "Easy",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-005"
-    },
-    {
-      "id": "006",
-      "category": "Char Arrays And String",
-      "title": "1047. Remove All Adjacent Duplicates In String",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-006"
-    },
-    {
-      "id": "007",
-      "category": "Char Arrays And String",
-      "title": "1910. Remove All Occurrences of a Substring",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-007"
-    },
-    {
-      "id": "008",
-      "category": "Char Arrays And String",
-      "title": "1209. Remove All Adjacent Duplicates in String II",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Not Solved",
-      "url": "placeholder-url-008"
-    },
-    {
-      "id": "009",
-      "category": "Char Arrays And String",
-      "title": "680. Valid Palindrome II",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-009"
-    },
-    {
-      "id": "010",
-      "category": "Char Arrays And String",
-      "title": "539. Minimum Time Difference",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-010"
-    },
-    {
-      "id": "011",
-      "category": "Char Arrays And String",
-      "title": "647. Palindromic Substrings",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-011"
-    },
-    {
-      "id": "012",
-      "category": "Linkedlist",
-      "title": "876. Middle of the Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-012"
-    },
-    {
-      "id": "013",
-      "category": "Linkedlist",
-      "title": "61. Rotate List",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "-",
-      "url": "placeholder-url-013"
-    },
-    {
-      "id": "014",
-      "category": "Linkedlist",
-      "title": "206. Reverse Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-014"
-    },
-    {
-      "id": "015",
-      "category": "Linkedlist",
-      "title": "234. Palindrome Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-015"
-    },
-    {
-      "id": "016",
-      "category": "Linkedlist",
-      "title": "141. Linked List Cycle",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-016"
-    },
-    {
-      "id": "017",
-      "category": "Linkedlist",
-      "title": "Remove loop in Linked List",
-      "difficulty": "Medium",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-017"
-    }
-  ],
-
-  "fraz": [
-    {
-      "id": "001",
-      "category": "Binary Search",
-      "title": "Search On A Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-001"
-    },
-    {
-      "id": "002",
-      "category": "Binary Search",
-      "title": "Searching an element in a sorted array | Practice | GeeksforGeeks",
-      "difficulty": "Easy",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-002"
-    },
-    {
-      "id": "003",
-      "category": "Binary Search",
-      "title": "Find First Occurence In Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-003"
-    },
-    {
-      "id": "004",
-      "category": "Binary Search",
-      "title": "Find Last Occurence In Sorted Array/Vector",
-      "difficulty": "Easy",
-      "source": "-",
-      "status": "Solved",
-      "url": "placeholder-url-004"
-    },
-    {
-      "id": "005",
-      "category": "Binary Search",
-      "title": "Find Total Number of occurrence",
-      "difficulty": "Easy",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-005"
-    },
-    {
-      "id": "006",
-      "category": "Char Arrays And String",
-      "title": "1047. Remove All Adjacent Duplicates In String",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-006"
-    },
-    {
-      "id": "007",
-      "category": "Char Arrays And String",
-      "title": "1910. Remove All Occurrences of a Substring",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-007"
-    },
-    {
-      "id": "008",
-      "category": "Char Arrays And String",
-      "title": "1209. Remove All Adjacent Duplicates in String II",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Not Solved",
-      "url": "placeholder-url-008"
-    },
-    {
-      "id": "009",
-      "category": "Char Arrays And String",
-      "title": "680. Valid Palindrome II",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-009"
-    },
-    {
-      "id": "010",
-      "category": "Char Arrays And String",
-      "title": "539. Minimum Time Difference",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-010"
-    },
-    {
-      "id": "011",
-      "category": "Char Arrays And String",
-      "title": "647. Palindromic Substrings",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-011"
-    },
-    {
-      "id": "012",
-      "category": "Linkedlist",
-      "title": "876. Middle of the Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-012"
-    },
-    {
-      "id": "013",
-      "category": "Linkedlist",
-      "title": "61. Rotate List",
-      "difficulty": "Medium",
-      "source": "Leetcode",
-      "status": "-",
-      "url": "placeholder-url-013"
-    },
-    {
-      "id": "014",
-      "category": "Linkedlist",
-      "title": "206. Reverse Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-014"
-    },
-    {
-      "id": "015",
-      "category": "Linkedlist",
-      "title": "234. Palindrome Linked List",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-015"
-    },
-    {
-      "id": "016",
-      "category": "Linkedlist",
-      "title": "141. Linked List Cycle",
-      "difficulty": "Easy",
-      "source": "Leetcode",
-      "status": "Solved",
-      "url": "placeholder-url-016"
-    },
-    {
-      "id": "017",
-      "category": "Linkedlist",
-      "title": "Remove loop in Linked List",
-      "difficulty": "Medium",
-      "source": "GFG",
-      "status": "Solved",
-      "url": "placeholder-url-017"
-    }
-  ]
-}
+Hyper
+[
+  {
+    "sno": 1,
+    "_id": "1",
+    "category": "Array",
+    "title": "2149. Rearrange Array Elements by Sign",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://leetcode.com/submissions/detail/1057124851/"
+    ],
+    "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+  },
+  {
+    "sno": 2,
+    "_id": "1",
+    "category": "Binary Search ",
+    "title": "Search On A Sorted Array/Vector",
+    "difficulty": "Easy",
+    "source": "-  ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/1_binarySearch.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 3,
+    "_id": "2",
+    "category": "Binary Search ",
+    "title": "Searching an element in a sorted array | Practice | GeeksforGeeks",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/self/1_searchingElementInSorttedArray.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1"
+  },
+  {
+    "sno": 4,
+    "_id": "3",
+    "category": "Binary Search ",
+    "title": "Find First Occurence In Sorted Array/Vector",
+    "difficulty": "Easy",
+    "source": "-  ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/2_findFirstOccurence.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 5,
+    "_id": "4",
+    "category": "Binary Search ",
+    "title": "Find Last Occurence In Sorted Array/Vector",
+    "difficulty": "Easy",
+    "source": "-  ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/3_findLastOccurence.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 6,
+    "_id": "5",
+    "category": "Binary Search ",
+    "title": "Find Total Number of occurrence",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/7-SearchingAndSorting/Lecture-1_BinarySearch/self/3_findNumberOfOccurence_GFG.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1"
+  },
+  {
+    "sno": 7,
+    "_id": "6",
+    "category": "Binary Search ",
+    "title": "Missing Element in Sorted Array - LeetCode",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/5_findMissingElement.cpp"
+    ],
+    "url": "https://leetcode.com/problems/missing-element-in-sorted-array/description/"
+  },
+  {
+    "sno": 8,
+    "_id": "7",
+    "category": "Binary Search ",
+    "title": "852. Peak Index in a Mountain Array",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/6_findPeakElement.cpp"
+    ],
+    "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/"
+  },
+  {
+    "sno": 9,
+    "_id": "8",
+    "category": "Binary Search ",
+    "title": "Find Pivot Element In Sorted Rotated Array ",
+    "difficulty": "Medium",
+    "source": "- ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/7_findPivotElement.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 10,
+    "_id": "9",
+    "category": "Binary Search ",
+    "title": "34. Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/self/4_findFirstAndLastPositionOfElementInSortedArray.cpp"
+    ],
+    "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+  },
+  {
+    "sno": 11,
+    "_id": "10",
+    "category": "Binary Search ",
+    "title": "Sqrt(x) - LeetCode",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/2_findNearestIntergerSquareRoot_LC.cpp"
+    ],
+    "url": "https://leetcode.com/problems/sqrtx/"
+  },
+  {
+    "sno": 12,
+    "_id": "11",
+    "category": "Binary Search ",
+    "title": "Search in Rotated Sorted Array - LeetCode",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/1_searchInSortedRotatedArray.cpp"
+    ],
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "sno": 13,
+    "_id": "12",
+    "category": "Binary Search ",
+    "title": "Search a 2D Matrix - LeetCode",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/3_searchIn2DMatrix_LC.cpp"
+    ],
+    "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+  },
+  {
+    "sno": 14,
+    "_id": "13",
+    "category": "Binary Search ",
+    "title": "Divide Two Integers",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-3/1_DevideTwoIntegerUsingBinarySearch.cpp"
+    ],
+    "url": "https://leetcode.com/problems/divide-two-integers/"
+  },
+  {
+    "sno": 15,
+    "_id": "14",
+    "category": "Binary Search ",
+    "title": "540. Single Element in a Sorted Array",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/7-SearchingAndSorting/Lecture-2_BinarySearch_Level-3/3_findSingleElement_IMP.cpp"
+    ],
+    "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+  },
+  {
+    "sno": 16,
+    "_id": "15",
+    "category": "Binary Search ",
+    "title": "Search In Nearly Sorted Array",
+    "difficulty": "Easy",
+    "source": "- ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/7-SearchingAndSorting/Lecture-2_BinarySearch_Level-3/2_searchInNearlySortedArray.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 17,
+    "_id": "1",
+    "category": "Char Arrays And String",
+    "title": "1047. Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-2/1-removeDuplicates.cpp"
+    ],
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+  },
+  {
+    "sno": 18,
+    "_id": "2",
+    "category": "Char Arrays And String",
+    "title": "1910. Remove All Occurrences of a Substring",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-2/2-removeAllOccurrencesOfASubstring.cpp"
+    ],
+    "url": "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/"
+  },
+  {
+    "sno": 19,
+    "_id": "3",
+    "category": "Char Arrays And String",
+    "title": "1209. Remove All Adjacent Duplicates in String II",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/"
+  },
+  {
+    "sno": 20,
+    "_id": "4",
+    "category": "Char Arrays And String",
+    "title": "680. Valid Palindrome II",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-2/3-isPalindrome-2.cpp"
+    ],
+    "url": "https://leetcode.com/problems/valid-palindrome-ii/"
+  },
+  {
+    "sno": 21,
+    "_id": "5",
+    "category": "Char Arrays And String",
+    "title": "539. Minimum Time Difference",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-2/Homework/1-minimumTimeDifference.cpp"
+    ],
+    "url": "https://leetcode.com/problems/minimum-time-difference/"
+  },
+  {
+    "sno": 22,
+    "_id": "6",
+    "category": "Char Arrays And String",
+    "title": "647. Palindromic Substrings",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-2/4-palindromicSubstrings.cpp"
+    ],
+    "url": "https://leetcode.com/problems/palindromic-substrings/"
+  },
+  {
+    "sno": 23,
+    "_id": "7",
+    "category": "Char Arrays And String",
+    "title": "2325. Decode the Message",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-3/1-decodeTheMessage.cpp"
+    ],
+    "url": "https://leetcode.com/problems/decode-the-message/"
+  },
+  {
+    "sno": 24,
+    "_id": "8",
+    "category": "Char Arrays And String",
+    "title": "2391. Minimum Amount of Time to Collect Garbage",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-3/2-minimumAmountOfTimeToCollectGarbage.cpp"
+    ],
+    "url": "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/"
+  },
+  {
+    "sno": 25,
+    "_id": "9",
+    "category": "Char Arrays And String",
+    "title": "791. Custom Sort String",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-3/3-customSortString.cpp"
+    ],
+    "url": "https://leetcode.com/problems/custom-sort-string/"
+  },
+  {
+    "sno": 26,
+    "_id": "10",
+    "category": "Char Arrays And String",
+    "title": "890. Find and Replace Pattern",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/9-CharArraysAndString.cpp/Lecture-3/4-findAndReplacePattern.cpp"
+    ],
+    "url": "https://leetcode.com/problems/find-and-replace-pattern/"
+  },
+  {
+    "sno": 27,
+    "_id": "11",
+    "category": "Char Arrays And String",
+    "title": "2125. Number of Laser Beams in a Bank",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/number-of-laser-beams-in-a-bank/"
+  },
+  {
+    "sno": 28,
+    "_id": "12",
+    "category": "Char Arrays And String",
+    "title": "242. Valid Anagram",
+    "difficulty": "Easy",
+    "source": "Easy",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "sno": 29,
+    "_id": "13",
+    "category": "Char Arrays And String",
+    "title": "917. Reverse Only Letters",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/reverse-only-letters/"
+  },
+  {
+    "sno": 30,
+    "_id": "14",
+    "category": "Char Arrays And String",
+    "title": "14. Longest Common Prefix",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/longest-common-prefix/"
+  },
+  {
+    "sno": 31,
+    "_id": "15",
+    "category": "Char Arrays And String",
+    "title": "345. Reverse Vowels of a String",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/reverse-vowels-of-a-string/"
+  },
+  {
+    "sno": 32,
+    "_id": "16",
+    "category": "Char Arrays And String",
+    "title": "205. Isomorphic Strings",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/isomorphic-strings/"
+  },
+  {
+    "sno": 33,
+    "_id": "17",
+    "category": "Char Arrays And String",
+    "title": "767. Reorganize String",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/reorganize-string/"
+  },
+  {
+    "sno": 34,
+    "_id": "18",
+    "category": "Char Arrays And String",
+    "title": "49. Group Anagrams",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "sno": 35,
+    "_id": "19",
+    "category": "Char Arrays And String",
+    "title": "5. Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/longest-palindromic-substring/"
+  },
+  {
+    "sno": 36,
+    "_id": "20",
+    "category": "Char Arrays And String",
+    "title": "28. Find the Index of the First Occurrence in a String",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/"
+  },
+  {
+    "sno": 37,
+    "_id": "21",
+    "category": "Char Arrays And String",
+    "title": "8. String to Integer (atoi)",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/string-to-integer-atoi/"
+  },
+  {
+    "sno": 38,
+    "_id": "22",
+    "category": "Char Arrays And String",
+    "title": "443. String Compression",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/string-compression/"
+  },
+  {
+    "sno": 39,
+    "_id": "23",
+    "category": "Char Arrays And String",
+    "title": "12. Integer to Roman",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/integer-to-roman/"
+  },
+  {
+    "sno": 40,
+    "_id": "24",
+    "category": "Char Arrays And String",
+    "title": "6. Zigzag Conversion",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/zigzag-conversion/"
+  },
+  {
+    "sno": 41,
+    "_id": "25",
+    "category": "Char Arrays And String",
+    "title": "179. Largest Number",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/largest-number/"
+  },
+  {
+    "sno": 42,
+    "_id": "1",
+    "category": "Recursion",
+    "title": "70. Climbing Stairs",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/13-Recursion/Lecture-2_Recursion_2/1-climbingStairs.cpp"
+    ],
+    "url": "https://leetcode.com/problems/climbing-stairs/"
+  },
+  {
+    "sno": 43,
+    "_id": "2",
+    "category": "Recursion",
+    "title": "Maximize The cut sigments",
+    "difficulty": "Medium",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://practice.geeksforgeeks.org/problems/cutted-segments1642/1"
+  },
+  {
+    "sno": 44,
+    "_id": "3",
+    "category": "Recursion",
+    "title": "322. Coin Change",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "sno": 45,
+    "_id": "4",
+    "category": "Recursion",
+    "title": "198. House Robber",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/house-robber/"
+  },
+  {
+    "sno": 46,
+    "_id": "5",
+    "category": "Recursion",
+    "title": "Last occurrence of a char",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/14-RecursionAssignments/1-lastOccurenceOfAChar.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/last-index-of-a-character-in-the-string4516/1"
+  },
+  {
+    "sno": 47,
+    "_id": "6",
+    "category": "Recursion",
+    "title": "Reverse a String RE",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/14-RecursionAssignments/2-reverseString.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-string/1"
+  },
+  {
+    "sno": 48,
+    "_id": "7",
+    "category": "Recursion",
+    "title": "Add Two Strings RE (Integer stored as String)",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 49,
+    "_id": "8",
+    "category": "Recursion",
+    "title": "Palindrome Check RE",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 50,
+    "_id": "9",
+    "category": "Recursion",
+    "title": "Print all Subarray RE",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 51,
+    "_id": "10",
+    "category": "Recursion",
+    "title": "Remove all Occurrence of a Substring",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 52,
+    "_id": "11",
+    "category": "Recursion",
+    "title": "Buy and sell stocks",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 53,
+    "_id": "12",
+    "category": "Recursion",
+    "title": "House Robbery problem",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 54,
+    "_id": "13",
+    "category": "Recursion",
+    "title": "Integer to English words",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 55,
+    "_id": "14",
+    "category": "Recursion",
+    "title": "Wild Card Matching",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 56,
+    "_id": "15",
+    "category": "Recursion",
+    "title": "Perfect Square",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 57,
+    "_id": "16",
+    "category": "Recursion",
+    "title": "Minimum Cost for Tickets",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 58,
+    "_id": "17",
+    "category": "Recursion",
+    "title": "Number of Dice Roll with Target Sum",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 59,
+    "_id": "1",
+    "category": "Linkedlist",
+    "title": "876. Middle of the Linked List",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-3/1-middleOfTheLL.cpp"
+    ],
+    "url": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  {
+    "sno": 60,
+    "_id": "2",
+    "category": "Linkedlist",
+    "title": "61. Rotate List",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/rotate-list/"
+  },
+  {
+    "sno": 61,
+    "_id": "3",
+    "category": "Linkedlist",
+    "title": "206. Reverse Linked List",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-3/2-reverseLinkedlist.cpp"
+    ],
+    "url": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "sno": 62,
+    "_id": "4",
+    "category": "Linkedlist",
+    "title": "234. Palindrome Linked List",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-3/3-isLinkedlistPalindrome.cpp"
+    ],
+    "url": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  {
+    "sno": 63,
+    "_id": "5",
+    "category": "Linkedlist",
+    "title": "141. Linked List Cycle",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-3/4-hasCycle.cpp"
+    ],
+    "url": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  {
+    "sno": 64,
+    "_id": "6",
+    "category": "Linkedlist",
+    "title": "Remove loop in Linked List",
+    "difficulty": "Medium",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-4/5-removeLoopIfPresent.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1"
+  },
+  {
+    "sno": 65,
+    "_id": "7",
+    "category": "Linkedlist",
+    "title": "5. Reverse Nodes in k-Group",
+    "difficulty": "Hard",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+  },
+  {
+    "sno": 66,
+    "_id": "8",
+    "category": "Linkedlist",
+    "title": "142. Linked List Cycle II",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-4/2-detectCycleAndReturnPositionNode.cpp"
+    ],
+    "url": "https://leetcode.com/problems/linked-list-cycle-ii/"
+  },
+  {
+    "sno": 67,
+    "_id": "9",
+    "category": "Linkedlist",
+    "title": "83. Remove Duplicates from Sorted List",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/Lecture-4/6-removeDuplicatesFromSortedList.cpp"
+    ],
+    "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
+  },
+  {
+    "sno": 68,
+    "_id": "10",
+    "category": "Linkedlist",
+    "title": "Delete N Nodes after M Nodes",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://practice.geeksforgeeks.org/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/1"
+  },
+  {
+    "sno": 69,
+    "_id": "11",
+    "category": "Linkedlist",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/merge-two-sorted-lists/description/"
+  },
+  {
+    "sno": 70,
+    "_id": "12",
+    "category": "Linkedlist",
+    "title": "Print kth Node from the End",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 71,
+    "_id": "13",
+    "category": "Linkedlist",
+    "title": "Intersection of Two Linked Lists",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 72,
+    "_id": "14",
+    "category": "Linkedlist",
+    "title": "Sort Lists using Merge Sort",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 73,
+    "_id": "15",
+    "category": "Linkedlist",
+    "title": "Flatten Linked List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 74,
+    "_id": "16",
+    "category": "Linkedlist",
+    "title": "Copy List with Random Pointer",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 75,
+    "_id": "17",
+    "category": "Linkedlist",
+    "title": "Rotate List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 76,
+    "_id": "18",
+    "category": "Linkedlist",
+    "title": "Find Minimum and Maximum Number of Nodes Between Critical Points",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 77,
+    "_id": "19",
+    "category": "Linkedlist",
+    "title": "Merge Nodes in between Zeros",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 78,
+    "_id": "20",
+    "category": "Linkedlist",
+    "title": "Odd Even Linked List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 79,
+    "_id": "21",
+    "category": "Linkedlist",
+    "title": "Double a Number Represented as a Linked List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 80,
+    "_id": "22",
+    "category": "Linkedlist",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 81,
+    "_id": "23",
+    "category": "Linkedlist",
+    "title": "LRU Cache",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 82,
+    "_id": "24",
+    "category": "Linkedlist",
+    "title": "Swapping Nodes in a Linked List",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 83,
+    "_id": "25",
+    "category": "Linkedlist",
+    "title": "Remove Nth Node From End of List - LeetCode",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/18-LinkedLists/MoreQuestions/Medium/1-removeNthNode.cpp"
+    ],
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/"
+  },
+  {
+    "sno": 84,
+    "_id": "1",
+    "category": "Stack",
+    "title": "STL of stack",
+    "difficulty": "-",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-1/1-stackSTL.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 85,
+    "_id": "2",
+    "category": "Stack",
+    "title": "Implentation of stack",
+    "difficulty": "-",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-1/2-implementationOfStack.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 86,
+    "_id": "3",
+    "category": "Stack",
+    "title": "mid of stack",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-1/3-deleteMiddleElement.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1"
+  },
+  {
+    "sno": 87,
+    "_id": "4",
+    "category": "Stack",
+    "title": "Insert an Element at the Bottom of a Stack",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-1/4-insertAtBottom.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1"
+  },
+  {
+    "sno": 88,
+    "_id": "5",
+    "category": "Stack",
+    "title": "Reverse a Stack",
+    "difficulty": "Medium",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-1/5-reverseStack.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/reverse-a-stack/1"
+  },
+  {
+    "sno": 89,
+    "_id": "6",
+    "category": "Stack",
+    "title": "insert in sorted stack",
+    "difficulty": "-",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 90,
+    "_id": "7",
+    "category": "Stack",
+    "title": "sort stack",
+    "difficulty": "-",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 91,
+    "_id": "8",
+    "category": "Stack",
+    "title": "Implement two stacks in an array | Practice | GeeksforGeeks",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-2/1-twoStackInAnArray.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1"
+  },
+  {
+    "sno": 92,
+    "_id": "9",
+    "category": "Stack",
+    "title": "Valid Parentheses - LeetCode",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/Lecture-2/2-validParentheses.cpp"
+    ],
+    "url": "https://leetcode.com/problems/valid-parentheses/description/"
+  },
+  {
+    "sno": 93,
+    "_id": "10",
+    "category": "Stack",
+    "title": "redundent bracket ",
+    "difficulty": "Hard",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 94,
+    "_id": "11",
+    "category": "Stack",
+    "title": "155. Min Stack",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/lecture-3/1-minStackInO(1).cpp"
+    ],
+    "url": "https://leetcode.com/problems/min-stack/"
+  },
+  {
+    "sno": 95,
+    "_id": "12",
+    "category": "Stack",
+    "title": "Next Smaller Element ",
+    "difficulty": "Medium",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/lecture-3/2-nextSmallerElement.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 96,
+    "_id": "13",
+    "category": "Stack",
+    "title": "Previous Smaller Element ",
+    "difficulty": "Medium",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/20-Stack/lecture-3/3-prevSmallerElement.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 97,
+    "_id": "14",
+    "category": "Stack",
+    "title": "84. Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+  },
+  {
+    "sno": 98,
+    "_id": "15",
+    "category": "Stack",
+    "title": "Minimum Bracket Reversal",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 99,
+    "_id": "16",
+    "category": "Stack",
+    "title": "1047. Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy",
+    "source": "LC",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"
+  },
+  {
+    "sno": 100,
+    "_id": "17",
+    "category": "Stack",
+    "title": "Celebrity Problem",
+    "difficulty": "Medium",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1"
+  },
+  {
+    "sno": 101,
+    "_id": "18",
+    "category": "Stack",
+    "title": "Next greater element in Linked List [leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 102,
+    "_id": "19",
+    "category": "Stack",
+    "title": "N Stacks in an Array",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 103,
+    "_id": "20",
+    "category": "Stack",
+    "title": "Online Stock Span [Leetcode]]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 104,
+    "_id": "21",
+    "category": "Stack",
+    "title": "Check If Word Is Valid After Substitutions [Leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 105,
+    "_id": "22",
+    "category": "Stack",
+    "title": "Decode Strings [Leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 106,
+    "_id": "23",
+    "category": "Stack",
+    "title": "Car Fleet - I [Leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 107,
+    "_id": "24",
+    "category": "Stack",
+    "title": "Car Fleet - II [Leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 108,
+    "_id": "25",
+    "category": "Stack",
+    "title": "Simplify Path [Leetcode]",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 109,
+    "_id": "26",
+    "category": "Stack",
+    "title": "Max rectangle in Binary Matrix with all 1s",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 110,
+    "_id": "27",
+    "category": "Stack",
+    "title": "Daily Temperatures",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 111,
+    "_id": "28",
+    "category": "Stack",
+    "title": "Remove K Digits",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 112,
+    "_id": "29",
+    "category": "Stack",
+    "title": "Minimum Add To Make Parentheses Valid",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 113,
+    "_id": "30",
+    "category": "Stack",
+    "title": "Longest Valid Parentheses",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 114,
+    "_id": "31",
+    "category": "Stack",
+    "title": "Asteroid Collision",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 115,
+    "_id": "32",
+    "category": "Stack",
+    "title": "Design Browser History ​",
+    "difficulty": "",
+    "source": "",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": ""
+  },
+  {
+    "sno": 116,
+    "_id": "1",
+    "category": "Queue",
+    "title": "Reverse Queue",
+    "difficulty": "Easy",
+    "source": "GFG",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/22-Queues/Lecture-2/1-reverseQueue.cpp"
+    ],
+    "url": "https://practice.geeksforgeeks.org/problems/queue-reversal/1"
+  },
+  {
+    "sno": 117,
+    "_id": "2",
+    "category": "Queue",
+    "title": "Reverse K Element In Queue",
+    "difficulty": "Easy",
+    "source": "- ",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/22-Queues/Lecture-2/2-reverseFirst-K-elementsOfQueue.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 118,
+    "_id": "1",
+    "category": "Trees",
+    "title": "build tree",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/1-buildTree.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 119,
+    "_id": "2",
+    "category": "Trees",
+    "title": "pre order traversal",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/4-preOrderTraversal.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 120,
+    "_id": "3",
+    "category": "Trees",
+    "title": "in order traversal",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/3-inOrderTraversal.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 121,
+    "_id": "4",
+    "category": "Trees",
+    "title": "Post order traversal",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/5-postOrderTraversal.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 122,
+    "_id": "5",
+    "category": "Trees",
+    "title": "level order traversal",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/2-leverOrderTraversal.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 123,
+    "_id": "6",
+    "category": "Trees",
+    "title": "104. Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/24-Trees/Lecture-1/6-maximumDepthOfBinaryTree.cpp"
+    ],
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+  },
+  {
+    "sno": 124,
+    "_id": "7",
+    "category": "Trees",
+    "title": "543. Diameter of Binary Tree",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [],
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree/"
+  },
+  {
+    "sno": 125,
+    "_id": "1",
+    "category": "BST",
+    "title": "Creation And Insertion In BST And pre/post/in/level order traversals",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/26-binarySearchTree/Lecture-1/01-creatingBST.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 126,
+    "_id": "2",
+    "category": "BST",
+    "title": "min value of BST",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/26-binarySearchTree/Lecture-1/02-findMinNodeInBST.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 127,
+    "_id": "3",
+    "category": "BST",
+    "title": "max value of BST",
+    "difficulty": "Easy",
+    "source": "-",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/26-binarySearchTree/Lecture-1/03-findMaxInBST.cpp"
+    ],
+    "url": ""
+  },
+  {
+    "sno": 128,
+    "_id": "4",
+    "category": "BST",
+    "title": "700. Search in a Binary Search Tree",
+    "difficulty": "Easy",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/26-binarySearchTree/Lecture-1/04-searchInBST.cpp"
+    ],
+    "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+  },
+  {
+    "sno": 129,
+    "_id": "5",
+    "category": "BST",
+    "title": "450. Delete Node in a BST",
+    "difficulty": "Medium",
+    "source": "Leetcode",
+    "status": [
+      "Solved",
+      "Unsolved"
+    ],
+    "solution": [
+      "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/26-binarySearchTree/Lecture-1/05-deleteNodeInBST.cpp"
+    ],
+    "url": "https://leetcode.com/problems/delete-node-in-a-bst/"
+  }
+]

@@ -1,0 +1,637 @@
+Logging output too large. Truncating output. [
+    [
+        {
+            "text": "SNO",
+            "url": null
+        },
+        {
+            "text": "TOPIC ",
+            "url": null
+        },
+        {
+            "text": "PROBLEM",
+            "url": null
+        },
+        {
+            "text": "LEVEL",
+            "url": null
+        },
+        {
+            "text": "PLATFORM",
+            "url": null
+        },
+        {
+            "text": "COMPLETION",
+            "url": null
+        },
+        {
+            "text": "SOLUTION",
+            "url": null
+        },
+        {
+            "text": "DESCRIPTION",
+            "url": null
+        },
+        {
+            "text": "Best Approach",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "1",
+            "url": null
+        },
+        {
+            "text": "Array",
+            "url": null
+        },
+        {
+            "text": "2149. Rearrange Array Elements by Sign",
+            "url": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://leetcode.com/submissions/detail/1057124851/"
+        },
+        {
+            "text": " ",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "1",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Search On A Sorted Array/Vector",
+            "url": null
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "-  ",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/1_binarySearch.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": "<>",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "2",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Searching an element in a sorted array | Practice | GeeksforGeeks",
+            "url": "https://practice.geeksforgeeks.org/problems/who-will-win-1587115621/1"
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "GFG",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/self/1_searchingElementInSorttedArray.cpp"
+        },
+        {
+            "text": "if element is present then return 1 else -1",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "3",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Find First Occurence In Sorted Array/Vector",
+            "url": null
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "-  ",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/2_findFirstOccurence.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "4",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Find Last Occurence In Sorted Array/Vector",
+            "url": null
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "-  ",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/3_findLastOccurence.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "5",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Find Total Number of occurrence",
+            "url": "https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1"
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "GFG",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/7-SearchingAndSorting/Lecture-1_BinarySearch/self/3_findNumberOfOccurence_GFG.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "6",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Missing Element in Sorted Array - LeetCode",
+            "url": "https://leetcode.com/problems/missing-element-in-sorted-array/description/"
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/5_findMissingElement.cpp"
+        },
+        {
+            "text": "Need Practice, Premium - IMP",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "7",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "852. Peak Index in a Mountain Array",
+            "url": "https://leetcode.com/problems/peak-index-in-a-mountain-array/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/6_findPeakElement.cpp"
+        },
+        {
+            "text": "Need Practice, IMP",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "8",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Find Pivot Element In Sorted Rotated Array ",
+            "url": null
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "- ",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/7_findPivotElement.cpp"
+        },
+        {
+            "text": "Need Practice, IMP",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "9",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "34. Find First and Last Position of Element in Sorted Array",
+            "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-1_BinarySearch/self/4_findFirstAndLastPositionOfElementInSortedArray.cpp"
+        },
+        {
+            "text": "Mostly Same as the total number of occurrence question",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "10",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Sqrt(x) - LeetCode",
+            "url": "https://leetcode.com/problems/sqrtx/"
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/2_findNearestIntergerSquareRoot_LC.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "11",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Search in Rotated Sorted Array - LeetCode",
+            "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/1_searchInSortedRotatedArray.cpp"
+        },
+        {
+            "text": "Important / Little Bit difficult. understand pivot element properly",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "12",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Search a 2D Matrix - LeetCode",
+            "url": "https://leetcode.com/problems/search-a-2d-matrix/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-2/3_searchIn2DMatrix_LC.cpp"
+        },
+        {
+            "text": "Need Practice",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "13",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Divide Two Integers",
+            "url": "https://leetcode.com/problems/divide-two-integers/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/6-SearchingAndSorting/Lecture-2_BinarySearch_Level-3/1_DevideTwoIntegerUsingBinarySearch.cpp"
+        },
+        {
+            "text": "IMP.think about different edge cases",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "14",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "540. Single Element in a Sorted Array",
+            "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+        },
+        {
+            "text": "Medium",
+            "url": null
+        },
+        {
+            "text": "Leetcode",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url": "https://github.com/IkramBagban/Data-Structures-And-Algorithm/blob/master/Supreme%202.0/7-SearchingAndSorting/Lecture-2_BinarySearch_Level-3/3_findSingleElement_IMP.cpp"
+        },
+        {
+            "text": "",
+            "url": null
+        },
+        {
+            "text": " ",
+            "url": null
+        }
+    ],
+    [
+        {
+            "text": "15",
+            "url": null
+        },
+        {
+            "text": "Binary Search ",
+            "url": null
+        },
+        {
+            "text": "Search In Nearly Sorted Array",
+            "url": null
+        },
+        {
+            "text": "Easy",
+            "url": null
+        },
+        {
+            "text": "- ",
+            "url": null
+        },
+        {
+            "text": "Solved",
+            "url": null
+        },
+        {
+            "text": "Solution",
+            "url":"https://github.com/IkramBagban/Data-Structures-And
