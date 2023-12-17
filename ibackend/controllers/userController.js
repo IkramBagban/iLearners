@@ -6,7 +6,6 @@ exports.postUser = async (req, res) => {
 
   const user = new User({ username, email, password });
   // create new user.
-
   try {
     const response = await user.save();
     console.log("User Created");
@@ -23,5 +22,30 @@ exports.getUsers = async (req, res) => {
     res.status(200).json({ message: "Get All the Users", data: users });
   } catch (err) {
     res.status(500).json({ message: "Internal Server Error" });
+  }
+};
+
+exports.updateUser = async (req, res) => {
+  try {
+    const { email, username } = req.body;
+    const userId = req.params.userId;
+
+    const user = await User.findById(userId);
+
+    if (!user) {
+      res.status(404).json({ message: "User Not Found" });
+      const error = new Error("User Not Found");
+      throw error;
+    }
+
+    user.email = email;
+    user.username = username;
+
+    const response = await user.save();
+
+    res.status(200).json({ message: "user has been updated", data: response });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Internal Error" });
   }
 };
