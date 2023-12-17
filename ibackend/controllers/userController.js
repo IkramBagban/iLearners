@@ -32,12 +32,6 @@ exports.updateUser = async (req, res) => {
 
     const user = await User.findById(userId);
 
-    if (!user) {
-      res.status(404).json({ message: "User Not Found" });
-      const error = new Error("User Not Found");
-      throw error;
-    }
-
     user.email = email;
     user.username = username;
 
