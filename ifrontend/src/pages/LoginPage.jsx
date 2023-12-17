@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import CustomInput from "../components/CustomInput";
 import { onInputChange } from "../utils/helperFunctions";
 import CustomButton from "../components/CustomButton";
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
+    const navigate = useNavigate();
   const [inputState, setInputState] = useState({
     email: "",
     password: "",
   });
+
+
+  const loginButtonHandler =(page) =>{
+      navigate('/welcome')
+  }
 
   const inputChangeHandler = (e) => {
     console.log(inputState);
@@ -39,9 +46,7 @@ const LoginPage = () => {
           {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
             Sign In
           </button> */}
-                  <CustomButton onClick={() => {}}>
-            Sign Up
-          </CustomButton>
+          <CustomButton onClick={loginButtonHandler}>Login</CustomButton>
         </form>
       </div>
     </div>

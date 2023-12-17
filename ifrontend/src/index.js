@@ -4,11 +4,37 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Sheet from "./components/Sheet";
+import WelcomePage from "./pages/WelcomePage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+import OTPVerification from "./pages/OtpVerification";
+import LandingPage from "./pages/LandingPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      { path: "/auth", element: <LandingPage /> },
+      { path: "/login", element: <LoginPage /> },
+      { path: "/signup", element: <SignupPage /> },
+      { path: "/Otp", element: <OTPVerification /> },
+      // { path: "/sheets", element: <Sheets /> },
+      { path: "/sheet", element: <Sheet /> },
+      { path: "/welcome", element: <WelcomePage /> },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <RouterProvider router={router}>  
+
     <App />
+    </RouterProvider>
   </React.StrictMode>
 );
 
