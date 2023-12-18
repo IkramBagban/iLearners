@@ -39,6 +39,9 @@ const Sheet = () => {
             <th scope="col" className="py-3 px-6">
               Status
             </th>
+            <th scope="col" className="py-3 px-6">
+              Notes
+            </th>
           </tr>
 
         </thead>
