@@ -30,7 +30,7 @@ function App() {
       <LoginPage />
       <SignupPage />
       <OTPVerification /> */}
-      
+      <Header />
       <Outlet />
 
     </>

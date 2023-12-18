@@ -13,11 +13,11 @@ const SheetTableRow = ({ item }) => {
   };
 
   const openModal = () => {
-    setIsModalOpen(true); // Function to open modal
+    setIsModalOpen(true);
   };
 
   const closeModal = () => {
-    setIsModalOpen(false); // Function to close modal
+    setIsModalOpen(false); 
   };
 
   return (
@@ -107,7 +107,7 @@ const SheetTableRow = ({ item }) => {
           <a
             href={item?.url}
             className={item?.url ? "text-sky-300 hover:text-sky-600" : "text-yellow cursor-default"}
-          >
+          > 
             {item.title}
           </a>
         </td>

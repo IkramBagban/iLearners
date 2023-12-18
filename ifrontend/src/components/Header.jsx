@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { UserCircleIcon } from '@heroicons/react/24/outline';
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -11,8 +12,8 @@ const Header = () => {
       <div className="flex items-center space-x-4">
         <h3 className="text-2xl font-bold">iLearner</h3>
         <nav className="flex space-x-4">
-          <a href="http://localhost:3000/home" className="hover:underline">Home</a>
-          <a href="http://localhost:3000/sheet" className="hover:underline">Sheets</a>
+          <NavLink to="/welcome" className={({isActive})=> isActive ?"underline":""}>Home</NavLink>
+          <NavLink to="/sheet" className={({isActive})=> isActive ?"underline":""}>Sheets</NavLink>
         </nav>
       </div>
       <div className="relative">
