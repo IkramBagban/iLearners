@@ -7,7 +7,7 @@ const Header = () => {
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   return (
-    <div className="px-4 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white flex justify-between items-center sticky top-0 z-50 shadow-md">
+    <div className="px-4 bg-gradient-to-r max-w-full from-indigo-600 via-purple-600 to-pink-600 text-white flex justify-between items-center sticky top-0 z-50 shadow-md">
       <div className="flex items-center space-x-4">
         <h3 className="text-2xl font-bold">iLearner</h3>
         <nav className="flex space-x-4">
