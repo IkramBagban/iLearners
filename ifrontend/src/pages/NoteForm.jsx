@@ -102,7 +102,7 @@ import React, { useRef, useState } from "react";
 import "react-quill/dist/quill.snow.css";
 import ReactQuill from "react-quill";
 
-const NoteForm = () => {
+const NoteForm = ({getNote, setIsModelOpen}) => {
   const [note, setNote] = useState('');
   const [wordCount, setWordCount] = useState(0);
   const quillRef = useRef(null);
@@ -145,7 +145,9 @@ const NoteForm = () => {
   
 
   const saveNote = () => {
-    console.log(note);
+    // console.log(note);
+    getNote(note)
+    setIsModelOpen(false)
   };
   
   const modules = {

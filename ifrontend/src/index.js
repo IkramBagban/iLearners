@@ -11,6 +11,7 @@ import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import OTPVerification from "./pages/OtpVerification";
 import LandingPage from "./pages/LandingPage";
+import SheetProvider from "./store/SheetProvider";
 
 const router = createBrowserRouter([
   {
@@ -31,10 +32,11 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>  
-
-    <App />
-    </RouterProvider>
+    <SheetProvider>
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </SheetProvider>
   </React.StrictMode>
 );
 

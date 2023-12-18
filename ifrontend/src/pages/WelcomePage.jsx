@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import Header from "../components/Header";
 import NoteForm from "./NoteForm";
+import { sheetContext } from "../store/SheetProvider";
 
 const WelcomePage = () => {
+  const sheetCtx = useContext(sheetContext)
+
+  useEffect(()=>{
+    console.log('sheet cox' , sheetCtx.selectedSheetData)
+  },[sheetCtx])
   return (
     <>
       

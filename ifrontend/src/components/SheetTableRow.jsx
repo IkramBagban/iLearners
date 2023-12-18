@@ -1,15 +1,55 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import NoteForm from "../pages/NoteForm";
+import { sheetContext } from "../store/SheetProvider";
 
 const status = ["Unsolved", "Solved"];
 
 const SheetTableRow = ({ item }) => {
   const [selectedStatus, setSelectedStatus] = useState(status[0]);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [note, setNote] = useState(``);
+
+
+  const sheetCtx = useContext(sheetContext);
+
+  useEffect(()=>{
+    const exist = sheetCtx.selectedSheetData.find(d => d._id === item.sno)
+    
+
+    if(exist){
+      console.log(exist.problem);
+      setSelectedStatus(status[1])
+    }
+
+  },[item, selectedStatus, status])
+
+  const getNote = (n) =>{
+    console.log('note', n)
+    setNote(n)
+    const data = {
+      _id: item.sno,
+      problem: item.title,
+      selectedStatus: selectedStatus,
+      note : n
+    };
+    sheetCtx.addData(data);
+  }
 
   const statusChangeHandler = (event) => {
     const sts = event.target.value;
     setSelectedStatus(sts);
+
+    if (sts === "Solved") {
+      const data = {
+        _id: item.sno,
+        problem: item.title,
+        selectedStatus: sts,
+        note : note
+      };
+      sheetCtx.addData(data);
+    }else{
+      sheetCtx.removeData(item.sno);
+    }
   };
 
   const openModal = () => {
@@ -17,8 +57,17 @@ const SheetTableRow = ({ item }) => {
   };
 
   const closeModal = () => {
-    setIsModalOpen(false); 
+    setIsModalOpen(false);
   };
+
+  // useEffect(()=>{
+  //   const data = {
+  //     _id : item.sno,
+  //     problem: item.title,
+  //     selectedStatus : selectedStatus
+  //   }
+
+  // },[selectedStatus])
 
   return (
     // <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -83,7 +132,7 @@ const SheetTableRow = ({ item }) => {
           </div>
         </td>
       </tr> */}
-       <tr className="bg-gradient-to-r from-white to-gray-100 hover:from-gray-100 hover:to-indigo-100 transition duration-300">
+      <tr className="bg-gradient-to-r from-white to-gray-100 hover:from-gray-100 hover:to-indigo-100 transition duration-300">
         {isModalOpen && (
           <td className="w-full">
             <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full flex justify-center items-center z-50">
@@ -96,7 +145,7 @@ const SheetTableRow = ({ item }) => {
                     &times;
                   </button>
                 </div>
-                <NoteForm id={item.sno} />
+                <NoteForm id={item.sno} getNote={getNote} setIsModelOpen={setIsModalOpen}/>
               </div>
             </div>
           </td>
@@ -106,8 +155,12 @@ const SheetTableRow = ({ item }) => {
         <td className="py-4 px-2 sm:px-6">
           <a
             href={item?.url}
-            className={item?.url ? "text-sky-300 hover:text-sky-600" : "text-yellow cursor-default"}
-          > 
+            className={
+              item?.url
+                ? "text-sky-300 hover:text-sky-600"
+                : "text-yellow cursor-default"
+            }
+          >
             {item.title}
           </a>
         </td>
@@ -119,7 +172,7 @@ const SheetTableRow = ({ item }) => {
             value={selectedStatus}
             className="form-select block w-full px-1 py-1 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
           >
-            <option value={selectedStatus[0]}>Unsolved</option>
+            <option value={status[0]}>Unsolved</option>
             <option value={status[1]}>Solved</option>
           </select>
         </td>
