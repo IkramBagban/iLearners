@@ -14,6 +14,7 @@ const Header = () => {
         <nav className="flex space-x-4">
           <NavLink to="/welcome" className={({isActive})=> isActive ?"underline":""}>Home</NavLink>
           <NavLink to="/sheet" className={({isActive})=> isActive ?"underline":""}>Sheets</NavLink>
+          <NavLink to="/Chat" className={({isActive})=> isActive ?"underline":""}>Chat</NavLink>
         </nav>
       </div>
       <div className="relative">

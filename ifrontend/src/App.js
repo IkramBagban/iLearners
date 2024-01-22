@@ -9,6 +9,7 @@ import SignupPage from './pages/SignupPage';
 import OTPVerification from './pages/OtpVerification';
 import WelcomePage from './pages/WelcomePage';
 import { Outlet, useNavigate } from 'react-router-dom';
+import ChatMain from './pages/Chat/ChatMain';
 
 function App() {
   const [token, setToken] = useState(true)
@@ -31,7 +32,9 @@ function App() {
       <SignupPage />
       <OTPVerification /> */}
       <Header />
+      {/* <ChatMain /> */}
       <Outlet />
+      
 
     </>
   );

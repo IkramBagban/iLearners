@@ -12,6 +12,10 @@ import SignupPage from "./pages/SignupPage";
 import OTPVerification from "./pages/OtpVerification";
 import LandingPage from "./pages/LandingPage";
 import SheetProvider from "./store/SheetProvider";
+import ChatMain from "./pages/Chat/ChatMain";
+import Groups from "./pages/Chat/Groups";
+import University from "./pages/Chat/University";
+import Chats from "./pages/Chat/Chats";
 
 const router = createBrowserRouter([
   {
@@ -20,11 +24,18 @@ const router = createBrowserRouter([
     children: [
       { path: "/auth", element: <LandingPage /> },
       { path: "/login", element: <LoginPage /> },
+      { path: "/login", element: <LoginPage /> },
       { path: "/signup", element: <SignupPage /> },
       { path: "/Otp", element: <OTPVerification /> },
       // { path: "/sheets", element: <Sheets /> },
       { path: "/sheet", element: <Sheet /> },
       { path: "/welcome", element: <WelcomePage /> },
+      { path: "/Chat", element: <ChatMain />, children : [
+        { path: "/Chat/", element: <Chats /> },
+        { path: "/Chat/Groups", element: <Groups /> },
+        { path: "/Chat/University", element: <University /> },
+      ] },
+
     ],
   },
 ]);
